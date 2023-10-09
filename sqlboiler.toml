@@ -1,0 +1,13 @@
+output   = "internal/dbmodels"
+
+wipe = true
+
+pkgname = "dbmodels"
+
+[psql]
+dbname = "admin"
+host = "localhost"
+port = 5432
+user = "postgres"
+pass = "azhar0708"
+sslmode = "disable"
